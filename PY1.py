@@ -4,8 +4,7 @@ import pickle
 import os
 
 
-model_path = 'D:\semester 5\Mesin Learning\Latihan1'
-model = os.path.join(model_path, 'RF_heartDisease_model.pkl')
+model = 'RF_heartDisease_model.pkl'
 
 with open(model, 'rb') as f:
     loaded_model = pickle.load(f)
